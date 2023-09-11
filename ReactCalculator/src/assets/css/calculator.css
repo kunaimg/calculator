@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh;
+}
+
+.calculator {
+  width: 32rem;
+  height: 34rem;
+  border-radius: 15px;
+
+  box-shadow: 0 0 3px 0 white;
+}
+.screen {
+  width: 32rem;
+  height: 17rem;
+}
+.keypad {
+  width: 32rem;
+  height: 17rem;
+}
+.expression {
+  overflow-x: scroll;
+  width: 94%;
+  margin-left: 2rem;
+}

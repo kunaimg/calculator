@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(45deg, #34495e, #2c3e50, #2d3436);
+}
+::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(45deg, #34495e, #2c3e50, #2d3436);
+  border-radius: 15px;
+}
+::-webkit-slider-thumb {
+  background-color: white;
+}
